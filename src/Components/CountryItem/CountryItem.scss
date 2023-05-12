@@ -1,0 +1,41 @@
+.country-item {
+
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+
+    &__delete-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: lightgray;
+        border-radius: 50%;
+        font-size: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+
+        &:after {
+            display: inline-block;
+            color: gray;
+            content: "\00d7";
+            transform: translate(0,-2px);
+        }
+    }
+
+    td {
+        padding: 20px;
+
+        &:nth-of-type(5){
+            font-size: 40px;
+        }
+
+        &:nth-of-type(6){
+            border-left: 1px solid lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+    }
+
+}

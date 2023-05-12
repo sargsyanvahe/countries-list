@@ -1,0 +1,16 @@
+.countries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    &__head {
+        background-color: #f4f4f4;
+        th {
+            text-align: left;
+            padding: 12px;
+            font-size: 12px;
+            color: gray;
+        }
+    }
+
+}
