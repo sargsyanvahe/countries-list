@@ -1,6 +1,6 @@
 # Countries List App
 
-## `Stacl: Raact, Typescript`
+## `Stack: Raact, Typescript`
 
 ### `npm i`
 ### `npm start`
